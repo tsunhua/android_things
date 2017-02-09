@@ -57,6 +57,37 @@ ID属性：对View对象进行唯一标识。其值通过字符串定义，Andro
 特性：
 
 - 通过有限的复用的视图展示大量的动态数据。
+- 使用多个不同的组件共同工作
+  - RecyclerView.ViewHolder
+  - LayoutManager
+  - RecyclerView.Adapter
 
 工作流：
 
+- 创建或查找RecyclerView
+- 创建Adapter，并绑定ViewHolder
+- 设置LayoutManager
+
+#### 列表视图（ListView）
+
+显示一个可滚动项目的视图组。
+
+![img](https://developer.android.google.cn/images/ui/listview.png)
+
+#### 网格视图（GridView）
+
+显示一个可滚动的网格布局。
+
+![img](https://developer.android.google.cn/images/ui/gridview.png)
+
+###  输入控件
+
+| 控件类型                                     | 说明                                       | 相关类                               |
+| ---------------------------------------- | ---------------------------------------- | --------------------------------- |
+| [按钮](https://developer.android.google.cn/guide/topics/ui/controls/button.html) | 可由用户按压或点击来执行操作的按钮。                       | `Button`                          |
+| [文本字段](https://developer.android.google.cn/guide/topics/ui/controls/text.html) | 一种可编辑的文本字段。您可以使用 `AutoCompleteTextView` 小部件创建提供自动完成建议的文本输入小部件 | `EditText`、`AutoCompleteTextView` |
+| [复选框](https://developer.android.google.cn/guide/topics/ui/controls/checkbox.html) | 可由用户切换的启用/禁用开关。您应该在向用户呈现一组不互斥的可选选项时使用复选框。 | `CheckBox`                        |
+| [单选按钮](https://developer.android.google.cn/guide/topics/ui/controls/radiobutton.html) | 与复选框类似，不同的是只能选择组中的一个选项。                  | `RadioGroup` `RadioButton`        |
+| [切换按钮](https://developer.android.google.cn/guide/topics/ui/controls/togglebutton.html) | 一种具有指示灯的开/关按钮。                           | `ToggleButton`                    |
+| [微调框](https://developer.android.google.cn/guide/topics/ui/controls/spinner.html) | 一种允许用户从值集中选择一个值的下拉列表。                    | `Spinner`                         |
+| [选取器](https://developer.android.google.cn/guide/topics/ui/controls/pickers.html) | 一种供用户通过使用向上/向下按钮或轻扫手势选择值集中单个值的对话框。使用 `DatePicker`小部件输入日期（月、日、年）值，或使用 `TimePicker` 小部件输入时间（小时、分钟、上午/下午）值，系统将根据用户的语言区域自动设置所输入内容的格式。 | `DatePicker`                      |
