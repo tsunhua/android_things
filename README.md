@@ -1,4 +1,6 @@
-## 知识体系（持续更新中...）
+## 知识体系
+
+研究手段：首先通览整个技术说明，得出最精简的工作原理图；然后，通览整个技术实现，得出工作流；最后根据功能编写对应的代码；最最后，阅读源代码和别人的代码获取新的体验。
 
 ### 基础
 
@@ -20,11 +22,14 @@
 
 - Android多媒体
 - Android安全
-- Android测试
+- Android单元测试
 - NDK开发
 
 ## 学习站点
 
+- [Android Guides --Code Path](https://github.com/codepath/android_guides/wiki)
+- [Android Doc](http://www.android-doc.com/)
+- [Android Weekly](http://androidweekly.net)
 - [Android Developers](https://developer.android.google.cn/index.html)
 - [Android Developers Blog](https://android-developers.googleblog.com/)
 - [Android开发技术前线 -- @Mr.Simple 何红辉](https://github.com/hehonghui/android-tech-frontier/wiki)
@@ -34,10 +39,13 @@
 - [胡凯的博客](http://hukai.me/)
 - [技术小黑屋 --@ 段建华](http://droidyue.com/)
 - [Srain --@秋百万 廖祜秋](https://www.liaohuqiu.net/)
+- [Android Cheatsheet for Graphic Designers](http://petrnohejl.github.io/Android-Cheatsheet-For-Graphic-Designers/)
+- [Material 样式](https://www.materialpalette.com//)
+- [Android UX ](http://androidux.com/)
 
 ## 开发工具
 
-
+- [Android Studio](https://developer.android.com/studio/index.html)：Android Studio 提供用于为各类 Android 设备构建应用的最快速的工具。[下载2](http://www.android-studio.org/)
 
 ## 第三方类库
 
